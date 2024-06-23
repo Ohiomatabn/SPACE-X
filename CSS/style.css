@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 7vmin;
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    font-size: 7vmin;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 2vmin;
+}
+
+.logo{
+    font-size: 5vmin;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: -10px 0px;
+    z-index: 100;
+}
+
+header{
+    z-index: 300;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+}
+
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vmin;
+    padding-left: 30px;
+}
+
+.shop i{
+    padding-left: 20px;
+}
+
+.showcase{
+    margin-top: -100px;
+}
+
+.background-img{
+    background-image: url('../IMAGE/Flight_4_Website_Desktop_3_ef4f400e2d.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.launch h2{
+    font-size: 7vmin;
+    margin-bottom: 50px;
+}
+
+.launch h4{
+    font-size: 3vmin;
+}
+
+.launch .container{
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 2%;
+    padding-bottom: 40px;
+}
+
+.launch .container a, .advance .container .human a, .overlay .container a{
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.launch .container a:hover, .advance .container .human a:hover, .overlay .container a:hover{
+    color: black;
+    background-color: white;
+}
+
+.advance{
+   background-image: url('../IMAGE/spacex.jpg');
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+
+}
+
+.advance .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.human{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.header{
+    background-color: black;
+    color: #fff;
+    position: sticky;
+    top: 0px;
+}
+
+.header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+
+.img{
+    background-image: url('../IMAGE/spacex.jpg');
+}
+
+.human p{
+    padding-bottom: 40px;
+}
+
+.life{
+    background-image: url(../IMAGE/Flight_4_Website_Desktop_3_ef4f400e2d.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.life .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: start;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    font-size: 2vmin;
+    padding: 30px;
+    text-align: center;
+}
+
+footer p span{
+    padding-left: 30px;
+}
+@media(max-width:1288px){
+    .nav-bar{
+        display: none;
+    }
+}
+   
+@media(max-width:680px){
+    .human{
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 50%;
+    }
+
+}
